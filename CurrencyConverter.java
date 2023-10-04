@@ -1,9 +1,9 @@
 public class CurrencyConverter {
     public static void main(String[] args) {
         java.util.Scanner scan = new java.util.Scanner(System.in);
-        System.out.print("If I give you £1, how many Euro will you give me? ");
+        System.out.print("If I give you £1, how much US Dollars will you give me? ");
         double euroOverPoundRatio = scan.nextDouble();
-        System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
+        System.out.print("If I give you 1€, how much Sterling pounds will you give me? ");
         double poundOverEuroRatio = scan.nextDouble();
         System.out.println("OK, now I know enough.");
         boolean finished = false;
